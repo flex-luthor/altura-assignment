@@ -12,7 +12,7 @@ interface ModalProps {
 
 const Modal = ({
   image,
-  id,
+  id = "",
   title,
   address,
   description,
@@ -46,7 +46,7 @@ const Modal = ({
               </div>
               <div className="mr-3">
                 <AddressPill
-                  address={id}
+                  address={parseInt(id).toString()}
                   icon="/contract-icon.svg"
                   fullLength={true}
                 />

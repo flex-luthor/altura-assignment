@@ -47,7 +47,10 @@ const NFTCard = ({
               </h3>
             </div>
             <div className="mr-3">
-              <AddressPill address={id} icon="/contract-icon.svg" />
+              <AddressPill
+                address={parseInt(id).toString()}
+                icon="/contract-icon.svg"
+              />
               <AddressPill
                 address={address}
                 variant="dark"
