@@ -1,6 +1,6 @@
 # Altura NFT Assignment
 
-# Built using Next.js + Tailwind CSS
+## Built using Next.js + Tailwind CSS
 
 [Tailwind CSS Docs](https://tailwindcss.com/) [(v3.2)](https://tailwindcss.com/blog/tailwindcss-v3-2) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
 
